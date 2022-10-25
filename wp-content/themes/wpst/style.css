@@ -1,0 +1,21 @@
+/*
+Theme Name: Food Delivery
+Theme URI: Localhost
+Author: Sulaymoni Ilhomjon
+Author URI: https://sulaymon-dev.github.io
+Description: This theme created end developed by Sulaymoni Ilhomjon for food delivery system
+Version: 1.0
+
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: twentysixteenuihiuui
+
+*/
+
+.post_price{
+    color: red;
+}
+
+footer ion-icon.md.hydrated{
+    vertical-align: top;
+    font-size: 24px;
+}

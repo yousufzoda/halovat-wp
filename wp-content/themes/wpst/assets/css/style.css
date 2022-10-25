@@ -1,0 +1,254 @@
+
+.default-color {
+    color: #963a6d;
+}
+
+.default-color-bg {
+    background-color: #f012bea6;
+}
+
+header nav {
+    box-shadow: 0 3px 7px #f012bea6;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.nav-menu-bg {
+    background-color: #d202a3eb;
+}
+
+.navbar-toggler-icon-menu {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+header nav ul.ml-auto li a {
+    color: #963a6d !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header nav ul.ml-auto li:first-child a {
+    color: #ff2330 !important;
+}
+
+.tales {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 400px !important;
+}
+
+.section-slider {
+    margin-top: 4.5rem;
+}
+
+.section-slider .container, .section-slider .col-lg-12 {
+    padding: 0;
+}
+
+.section-main .search-form .input-group {
+    width: 100%;
+}
+
+.section-main .search-form button.btn.btn-outline-secondary {
+    border-color: #f0afac;
+    padding: 0 .6rem;
+    font-size: 2rem;
+}
+
+.section-main .search-form button.btn.btn-outline-secondary:hover {
+    background-color: #F012BE;
+}
+
+.section-main .card {
+    overflow: hidden;
+    box-shadow: 0 0 11px #e2cede;
+}
+
+.section-main .card:hover {
+    z-index: 10;
+}
+
+
+.section-main .card .card-body {
+    padding: 0 0 1rem 0.5rem;
+}
+
+.section-main .card:hover {
+    box-shadow: 0 0 11px #f9a1e5;
+}
+
+.section-main .card:hover h5 {
+    color: #ab0786;
+}
+
+.section-main .card:hover img {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
+.page-item.active .page-link {
+    background-color: #f012be;
+    border-color: #f17ad6;
+}
+
+
+.page-link {
+    color: #f012be;
+}
+
+.section-main .media img {
+    height: 4rem;
+}
+
+.section-main .card-img-wrapper {
+    overflow: hidden;
+}
+
+.lh-null {
+    line-height: 1.2rem;
+}
+
+.section-footer {
+    position: relative;
+    background-color: rgb(45, 29, 38);
+    /*background-image: url(../img/1.jpg);*/
+    /*opacity: .3;*/
+}
+
+.sidebar-menu {
+    border: 1px solid green;
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 101;
+}
+
+.img-aside {
+    max-width: 21%;
+    min-width: 21%;
+}
+
+#shopping-cart-container {
+    background: #fff;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.shopping-cart-wrapper {
+    border: 1px solid #F012BE;
+    box-shadow: 0 0 12px -4px #F012BE;
+    padding: 15px;
+    margin: 68px 0 0;
+}
+
+.section-foods #clear-basket {
+    display: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.section-checkout td, th {
+    white-space: nowrap;
+}
+
+.section-foods #btn_oformit {
+    display: none;
+}
+
+#shopping-cart-container .border-basket{
+    border: 5px solid white;
+}
+#shopping-cart:empty {
+    height: 250px;
+    background-image: url("../img/plate.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mobile-cart-show-wrapper {
+    background-color: #d616aa;
+    margin: 0 -15px 7px;
+}
+
+#bg-black{
+    top:0;
+    left: 0;
+    position: fixed;
+    z-index: 10;
+    height: 100%;
+    display: none;
+    width: 100%;
+    opacity: .65;
+}
+
+@media (min-width: 576px) {
+    .section-main .card-img-wrapper {
+        height: 10rem;
+    }
+
+    .img-aside {
+        max-width: 23%;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-main .card-img-wrapper {
+        height: 9rem;
+    }
+
+    .img-aside {
+        max-width: 13%;
+        min-width: 13%;
+    }
+}
+
+
+@media (min-width: 991px) {
+
+
+    #shopping-cart-container {
+        height: auto;
+        position: static;
+        background-color: transparent;
+    }
+
+    .shopping-cart-wrapper {
+        border: 1px solid #F012BE;
+        box-shadow: 0 0 12px -4px #F012BE;
+        padding: 15px;
+        margin: 0 -5px 0 -20px;
+    }
+
+    .section-foods .remove-btn {
+        margin-left: 50%;
+        cursor: pointer;
+        display: block;
+        margin-top: -12%;
+    }
+
+    .section-main .card-img-wrapper {
+        height: 8rem;
+    }
+
+    .img-aside {
+        max-width: 27%;
+    }
+}
+
+footer ion-icon.md.hydrated{
+    vertical-align: top;
+    font-size: 24px;
+        padding-right: 6px;
+}
